@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B49EC65D1C7308B900F9C4EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B49EC65C1C7308B900F9C4EA /* AppDelegate.m */; };
+		B49EC65D1C7308B900F9C4EA /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = B49EC65C1C7308B900F9C4EA /* AppDelegate.mm */; };
 		B49EC65F1C7308B900F9C4EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B49EC65E1C7308B900F9C4EA /* main.m */; };
 		B49EC6611C7308B900F9C4EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49EC6601C7308B900F9C4EA /* Images.xcassets */; };
 		B49EC6641C7308B900F9C4EA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49EC6621C7308B900F9C4EA /* MainMenu.xib */; };
@@ -28,7 +28,7 @@
 		B49EC6561C7308B900F9C4EA /* LED Calibration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LED Calibration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49EC65A1C7308B900F9C4EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B49EC65B1C7308B900F9C4EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B49EC65C1C7308B900F9C4EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B49EC65C1C7308B900F9C4EA /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		B49EC65E1C7308B900F9C4EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B49EC6601C7308B900F9C4EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B49EC6631C7308B900F9C4EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				B49EC65B1C7308B900F9C4EA /* AppDelegate.h */,
-				B49EC65C1C7308B900F9C4EA /* AppDelegate.m */,
+				B49EC65C1C7308B900F9C4EA /* AppDelegate.mm */,
 				B49EC6601C7308B900F9C4EA /* Images.xcassets */,
 				B49EC6621C7308B900F9C4EA /* MainMenu.xib */,
 				B49EC6591C7308B900F9C4EA /* Supporting Files */,
@@ -211,7 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B49EC65F1C7308B900F9C4EA /* main.m in Sources */,
-				B49EC65D1C7308B900F9C4EA /* AppDelegate.m in Sources */,
+				B49EC65D1C7308B900F9C4EA /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +401,7 @@
 				B49EC6751C7308B900F9C4EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B49EC6761C7308B900F9C4EA /* Build configuration list for PBXNativeTarget "LED CalibrationTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +410,7 @@
 				B49EC6781C7308B900F9C4EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
