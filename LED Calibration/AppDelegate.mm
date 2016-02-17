@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AlgorithmOB3N.h"
 
 @interface AppDelegate ()
 
@@ -22,14 +23,26 @@
     _Title.editable = false;
     _LeftROITitle.editable = false;
     _RightROITitle.editable = false;
+    _SNTextfield.editable = false;
+    _TestTimeTextField.editable = false;
     
     
     Namearray = [NSMutableArray arrayWithObjects:@"Best PWM",@"Final Brightness",@"Uniformity",nil];
    [tableView reloadData];
+    
+    
 }
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
+//关闭应用程序
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
+{
+    return YES;
+}
+
+- (void)applicationWillTerminate:(NSNotification *)aNotification
+{
     // Insert code here to tear down your application
+    
 }
 
 
@@ -57,6 +70,11 @@
     }
 
 }
-- (IBAction)StartToCalibrate:(id)sender {
+/*****************************************
+ 点击开始按钮
+ *****************************************/
+- (IBAction)StartToCalibrate:(id)sender
+{
+    
 }
 @end

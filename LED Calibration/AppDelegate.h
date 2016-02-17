@@ -15,6 +15,10 @@
     NSMutableArray *Namearray;
     NSMutableArray *RightLEDarray;
     NSMutableArray *LeftLEDarray;
+    NSMutableArray *RightSpecLow;
+    NSMutableArray *RightSpecHigh;
+    NSMutableArray *LeftSpecLow;
+    NSMutableArray *LeftSpecHigh;
 }
 
 @property (strong) IBOutlet NSTextField *Title;
@@ -24,6 +28,8 @@
 @property (strong) IBOutlet NSImageView *LeftImageROI;
 @property (strong) IBOutlet NSImageView *RightImageROI;
 @property (strong) IBOutlet NSTextField *ResultLabel;
+@property (strong) IBOutlet NSTextField *SNTextfield;
+@property (strong) IBOutlet NSTextField *TestTimeTextField;
 
 - (IBAction)StartToCalibrate:(id)sender;
 @end

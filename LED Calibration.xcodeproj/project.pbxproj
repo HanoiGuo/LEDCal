@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B485FCB81C7411A7003F4A37 /* libdc1394.22.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B485FCB21C7411A7003F4A37 /* libdc1394.22.dylib */; };
+		B485FCB91C7411A7003F4A37 /* libopencv_core.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B485FCB31C7411A7003F4A37 /* libopencv_core.2.4.10.dylib */; };
+		B485FCBA1C7411A7003F4A37 /* libopencv_highgui.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B485FCB41C7411A7003F4A37 /* libopencv_highgui.2.4.10.dylib */; };
+		B485FCBB1C7411A7003F4A37 /* libopencv_imgproc.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B485FCB51C7411A7003F4A37 /* libopencv_imgproc.2.4.10.dylib */; };
+		B485FCBC1C7411A7003F4A37 /* libopencv_ml.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B485FCB61C7411A7003F4A37 /* libopencv_ml.2.4.10.dylib */; };
+		B485FCBD1C7411A7003F4A37 /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B485FCB71C7411A7003F4A37 /* libusb-1.0.0.dylib */; };
 		B49EC65D1C7308B900F9C4EA /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = B49EC65C1C7308B900F9C4EA /* AppDelegate.mm */; };
 		B49EC65F1C7308B900F9C4EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B49EC65E1C7308B900F9C4EA /* main.m */; };
 		B49EC6611C7308B900F9C4EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49EC6601C7308B900F9C4EA /* Images.xcassets */; };
@@ -25,6 +31,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B485FCB01C741064003F4A37 /* AlgorithmOB3N.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmOB3N.h; sourceTree = "<group>"; };
+		B485FCB21C7411A7003F4A37 /* libdc1394.22.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libdc1394.22.dylib; sourceTree = "<group>"; };
+		B485FCB31C7411A7003F4A37 /* libopencv_core.2.4.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_core.2.4.10.dylib; sourceTree = "<group>"; };
+		B485FCB41C7411A7003F4A37 /* libopencv_highgui.2.4.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_highgui.2.4.10.dylib; sourceTree = "<group>"; };
+		B485FCB51C7411A7003F4A37 /* libopencv_imgproc.2.4.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgproc.2.4.10.dylib; sourceTree = "<group>"; };
+		B485FCB61C7411A7003F4A37 /* libopencv_ml.2.4.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_ml.2.4.10.dylib; sourceTree = "<group>"; };
+		B485FCB71C7411A7003F4A37 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libusb-1.0.0.dylib"; sourceTree = "<group>"; };
 		B49EC6561C7308B900F9C4EA /* LED Calibration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LED Calibration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49EC65A1C7308B900F9C4EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B49EC65B1C7308B900F9C4EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +55,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B485FCB91C7411A7003F4A37 /* libopencv_core.2.4.10.dylib in Frameworks */,
+				B485FCB81C7411A7003F4A37 /* libdc1394.22.dylib in Frameworks */,
+				B485FCBC1C7411A7003F4A37 /* libopencv_ml.2.4.10.dylib in Frameworks */,
+				B485FCBD1C7411A7003F4A37 /* libusb-1.0.0.dylib in Frameworks */,
+				B485FCBA1C7411A7003F4A37 /* libopencv_highgui.2.4.10.dylib in Frameworks */,
+				B485FCBB1C7411A7003F4A37 /* libopencv_imgproc.2.4.10.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,9 +74,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B485FCB11C741164003F4A37 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B485FCB21C7411A7003F4A37 /* libdc1394.22.dylib */,
+				B485FCB31C7411A7003F4A37 /* libopencv_core.2.4.10.dylib */,
+				B485FCB41C7411A7003F4A37 /* libopencv_highgui.2.4.10.dylib */,
+				B485FCB51C7411A7003F4A37 /* libopencv_imgproc.2.4.10.dylib */,
+				B485FCB61C7411A7003F4A37 /* libopencv_ml.2.4.10.dylib */,
+				B485FCB71C7411A7003F4A37 /* libusb-1.0.0.dylib */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
 		B49EC64D1C7308B900F9C4EA = {
 			isa = PBXGroup;
 			children = (
+				B485FCB11C741164003F4A37 /* Lib */,
 				B49EC6581C7308B900F9C4EA /* LED Calibration */,
 				B49EC66C1C7308B900F9C4EA /* LED CalibrationTests */,
 				B49EC6571C7308B900F9C4EA /* Products */,
@@ -77,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				B49EC65B1C7308B900F9C4EA /* AppDelegate.h */,
+				B485FCB01C741064003F4A37 /* AlgorithmOB3N.h */,
 				B49EC65C1C7308B900F9C4EA /* AppDelegate.mm */,
 				B49EC6601C7308B900F9C4EA /* Images.xcassets */,
 				B49EC6621C7308B900F9C4EA /* MainMenu.xib */,
@@ -329,8 +363,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv/2.4.10.1/include,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/Cellar/opencv/2.4.10.1/include/opencv,
+					/usr/local/Cellar/opencv/2.4.10.1/include/opencv2,
+					/usr/local/Cellar/opencv/2.4.10.1/include,
+				);
 				INFOPLIST_FILE = "LED Calibration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/usr/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -340,8 +386,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv/2.4.10.1/include,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/Cellar/opencv/2.4.10.1/include/opencv,
+					/usr/local/Cellar/opencv/2.4.10.1/include/opencv2,
+					/usr/local/Cellar/opencv/2.4.10.1/include,
+				);
 				INFOPLIST_FILE = "LED Calibration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/usr/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
