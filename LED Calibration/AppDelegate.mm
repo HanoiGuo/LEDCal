@@ -26,7 +26,6 @@
     _SNTextfield.editable = false;
     _TestTimeTextField.editable = false;
     
-    
     Namearray = [NSMutableArray arrayWithObjects:@"Best PWM",@"Final Brightness",@"Uniformity",nil];
    [tableView reloadData];
 }
