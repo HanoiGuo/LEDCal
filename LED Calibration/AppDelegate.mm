@@ -29,8 +29,6 @@
     
     Namearray = [NSMutableArray arrayWithObjects:@"Best PWM",@"Final Brightness",@"Uniformity",nil];
    [tableView reloadData];
-    
-    
 }
 
 //关闭应用程序
