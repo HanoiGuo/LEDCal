@@ -19,6 +19,9 @@
     NSMutableArray *RightSpecHigh;
     NSMutableArray *LeftSpecLow;
     NSMutableArray *LeftSpecHigh;
+    
+    NSTimer *TestTimeTimer;
+    NSTimer *UpdateUITimer;
 }
 
 @property (strong) IBOutlet NSTextField *Title;
@@ -30,6 +33,9 @@
 @property (strong) IBOutlet NSTextField *ResultLabel;
 @property (strong) IBOutlet NSTextField *SNTextfield;
 @property (strong) IBOutlet NSTextField *TestTimeTextField;
+@property (strong) IBOutlet NSButton *StartButton;
+
+
 
 - (IBAction)StartToCalibrate:(id)sender;
 @end

@@ -77,8 +77,8 @@
 		B485FCB11C741164003F4A37 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				B485FCB21C7411A7003F4A37 /* libdc1394.22.dylib */,
 				B485FCB31C7411A7003F4A37 /* libopencv_core.2.4.10.dylib */,
+				B485FCB21C7411A7003F4A37 /* libdc1394.22.dylib */,
 				B485FCB41C7411A7003F4A37 /* libopencv_highgui.2.4.10.dylib */,
 				B485FCB51C7411A7003F4A37 /* libopencv_imgproc.2.4.10.dylib */,
 				B485FCB61C7411A7003F4A37 /* libopencv_ml.2.4.10.dylib */,
